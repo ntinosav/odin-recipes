@@ -1,0 +1,32 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    padding: 10px 100px;
+}
+ul li {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+}
+
+img {
+    margin: auto;
+    display:block;
+    width: 300px;
+    height: auto;
+    border-radius: 80%;
+}

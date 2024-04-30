@@ -1,6 +1,8 @@
 # odin-recipes
 This is my first Odin Project !
-It's a site with recipes
+
+It's a site with recipes !
+
 I choose those three :
    - Springtime Spaghetti
    - Honey-Glazed Chicken

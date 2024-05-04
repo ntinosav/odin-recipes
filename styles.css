@@ -15,6 +15,10 @@ h2 {
 
 ul {
     padding: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 ul li {
     margin: 20px 10px;

@@ -3,6 +3,12 @@ body {
     background-color: snow;
 }
 
+.instruct {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .time h3 {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -20,7 +26,16 @@ p {
     border-top: 10px solid thistle;
     width: 500px;
     margin: 5px auto;
+    display: flex;
+    justify-content: center;
 }
+
+#time_container {
+    outline: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
 .time div {
     display: inline-block;
     margin: 5px 30px;
@@ -30,6 +45,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     color: rgb(190 84 42);
+    text-align: center;
 }
 
 img {
@@ -77,3 +93,19 @@ ol li {
     margin-bottom: 5px;
 }
 
+#title_area {
+    margin:auto;
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+#title_area p {
+    flex-shrink: 1;
+   
+}
+
+#title_area img {
+    flex-shrink: 1;
+    align-self: center;
+}

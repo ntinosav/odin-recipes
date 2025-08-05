@@ -1,0 +1,74 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-color: rgb(254,240,214);
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-decoration: underline;
+} 
+
+.descr {
+   
+}
+
+.reclist {
+    list-style: none;
+    margin: auto;
+}
+
+.reclist li {
+      display:inline-block;
+      padding: 5px;
+      margin: 5px;
+      border: 1px solid pink;
+      border-radius: 10%;
+      background-color: pink;
+}
+
+.reclist li a{
+    text-decoration: none;
+}
+
+img {
+    margin: auto;
+}
+
+.ingr , .steps{  
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    border-radius: 25%;
+    font-size: larger;
+        
+}
+
+.ingr {
+    background-color: rgb(184, 222, 247) ;
+    margin-bottom: 30px;
+}
+
+.steps {
+    background-color: rgb(175, 154, 194);
+}
+
+.steps ol li{
+    margin: 30px auto;
+    text-align: left;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
